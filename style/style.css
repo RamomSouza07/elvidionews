@@ -128,7 +128,6 @@ main strong{
 }
 
 main a{
-    background-color: var(--cor1);
     text-decoration: none;
     color: var(--cor5);
     font-weight: bold;
@@ -179,7 +178,12 @@ div.video > iframe{
     height: 90%;
 }
 
-nav#apps img{
+div#conteiner{
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+div#conteiner > a img{
     width: 50px;
     margin: 10px;
     border-radius: 50%;
@@ -187,7 +191,7 @@ nav#apps img{
     box-sizing: border-box;
 }
 
-nav#apps img:hover{
+div#conteiner > a img:hover{
     border: 2px solid white;
     transform: translate(-3px, -3px);
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.61);
